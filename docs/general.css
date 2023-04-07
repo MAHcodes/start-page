@@ -81,10 +81,11 @@ html[data-theme="Mocha"] {
 body {
   font-family: 'Iosevka', monospace;
   font-size: 20px;
-  background-color: var(--bgcolor);
+  /*background-color: var(--bgcolor);*/
   background-image: url("img/");
   background-repeat: repeat;
   width: 670px;
+  min-width: 1100px; /* Prevents the layout to get cut off */
   height: 320px;
   position: absolute;
   top: 0px;
@@ -92,6 +93,7 @@ body {
   left: 0px;
   right: 0px;
   margin: auto;
+  overflow: auto /* Adds scrollbars */
 }
 
 h1 {
@@ -107,6 +109,9 @@ h1 {
 }
 
 .main {
+ /* Transforms the whole page and makes it smaller  */
+  --webkit-transform: scale(0.8);
+      -moz-transform: scale(0.8);  
   display: inline-block;
   border-style: solid;
   border-width: 1px;
@@ -194,7 +199,7 @@ img {
 }
 
 li {
-  margin: 10px 0;
+  margin: 5px 0; /* Margin between the text elements of the list */
 }
 
 nav {
@@ -216,9 +221,9 @@ ul {
   text-align: center;
   height: 100%;
   border-color: var(--main-border);
-  border-right-width: 1px;
+  border-right-width: 1px; /* changes border of the table where the list goes */
   border-right-style: solid;
-  padding: 10px 25px;
+  padding: 0px 15px;
   transition: all 0.8s;
   cursor: default;
   list-style-type: none;
