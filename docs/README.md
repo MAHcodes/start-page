@@ -1,7 +1,5 @@
 # Startpage
 
-## This is [MAHcodes's](https://github.com/MAHcodes) fork of mtwb47's [startpage](https://github.com/mtwb47/mtwb47.github.io) with [gruvbox](https://github.com/morhetz/gruvbox) and [nord](https://github.com/arcticicestudio/nord) theme.
-
 ### Change Theme:
 
 To change the theme press "c".
@@ -29,6 +27,12 @@ To change the theme press "c".
 <img src="home.gif" alt="Preview" width="100%"/>
 
 This is a fork of RamenMaestro's [startpage](https://github.com/RamenMaestro/startpage) with a image scroll option and larger option size.
+
+## To Do
+
+- [ ] Make the background rectangle bigger
+- [ ] Make a wikipage explaining how to add a custom startpage to Mozilla Firefox.
+- [x] ~~Fix white background issue found in Firefox 117.~~
 
 ## Credits
 
